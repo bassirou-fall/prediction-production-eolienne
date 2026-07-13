@@ -1,0 +1,19 @@
+# Streamlit / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# (Ne pas ignorer .pkl car vous avez demandé de le versionner)
+
