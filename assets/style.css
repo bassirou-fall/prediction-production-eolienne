@@ -1,0 +1,78 @@
+/* ================================
+   Couleur principale
+================================ */
+
+body {
+    background-color: #F5F7FA;
+}
+
+/* ================================
+Titre
+================================ */
+
+h1{
+    color:#003366;
+    text-align:center;
+}
+
+/* ================================
+Sous-titres
+================================ */
+
+h2,h3{
+    color:#006699;
+}
+
+/* ================================
+Boutons
+================================ */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#0066CC;
+
+    color:white;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    height:55px;
+
+    border:none;
+
+}
+
+.stButton>button:hover{
+
+    background:#004C99;
+
+}
+
+/* ================================
+Sidebar
+================================ */
+
+section[data-testid="stSidebar"]{
+
+    background:#EAF2F8;
+
+}
+
+/* ================================
+Metric
+================================ */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    border:1px solid #DDD;
+
+}

@@ -1,9 +1,10 @@
-# TODO - Création du lien GitHub
+- [x] Mettre en place une navigation multi-pages dans `app.py` (sidebar radio)
+- [x] Corriger `pages/Analyse_des_donnees.py` : supprimer les `...` et rendre les onglets fonctionnels
 
-- [ ] Vérifier l’état du repo Git (fichiers modifiés, commits existants)
-- [ ] Ajouter les fichiers nécessaires au commit (app.py, data_eol.csv, modele_prediction.pkl, README si présent)
-- [ ] Faire un commit local
-- [ ] Configurer l’URL Git remote (GitHub)
-- [ ] Pousser le code sur GitHub (git push)
-- [ ] Récupérer et communiquer le lien GitHub du repository
+- [x] Rendre les chemins de fichiers robustes via `pathlib` (css, csv, pkl, images)
+
+- [x] Mettre à jour `requirements.txt` (ex: seaborn)
+- [ ] Lancer `streamlit run app.py` et vérifier l’exécution / affichage
+
+
 
